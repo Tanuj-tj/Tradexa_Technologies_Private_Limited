@@ -1,8 +1,8 @@
 # Tradexa Technologies Private Limited
 
 ### Please Note 
-* I have used the already build theme, Have not created it from scratch .
-* I have added session based authentication in the login page and login is required to access the post rout .
+* I have used a prebuild theme, Have not created it from scratch .
+* I have added session based authentication in the login page and login is required to access the post route .
 * If the user will press logout button the session will get deleted .
 
 ### Steps to Follow
