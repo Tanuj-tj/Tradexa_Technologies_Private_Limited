@@ -3,6 +3,7 @@
 ### Please Note 
 * I have used the already build theme, Have not created it from scratch .
 * I have added session based authentication in the login page and login is required to access the post rout .
+* If the user will press logout button the session will get deleted .
 
 ### Steps to Follow
 1. Create an application that has two apps User and Product.

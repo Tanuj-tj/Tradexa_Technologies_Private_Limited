@@ -5,10 +5,9 @@ from . import views
 
 
 urlpatterns = [
-    path('/create_Post', views.createPost, name='create_Post' ),
+    path('create_Post/', views.createPost, name='create_Post' ),
     path('', views.loginUser, name='login'),
-    path('/logout', views.logoutUser, name='logout'),
-    path('/register', views.registerUser, name='register'),
-    path('/success', views.successPage, name='success_Page' ),
+    path('logout/', views.logoutUser, name='logout'),
+    path('success/', views.successPage, name='success_Page' ),
 ]
  

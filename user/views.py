@@ -8,8 +8,6 @@ from .forms import PostForm
 
 def loginUser(request):
 
-    page = 'login'
-
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
@@ -32,14 +30,6 @@ def loginUser(request):
 def logoutUser(request):
     logout(request)
     return redirect('login')
-
-
-def registerUser(request):
-    page = 'register'
-    context = {
-
-    }
-    return render(request, 'user/login_register.html', context)
 
 @login_required(login_url="login")
 def createPost(request):
